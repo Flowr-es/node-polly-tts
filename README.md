@@ -8,7 +8,7 @@ polly-tts is a module that uses amazon polly for providing text to speech using 
 
 ## Notice
 As it uses EcmasScript 2015 code it will probably not work with older Node Versions
-
+For more information see http://docs.aws.amazon.com/polly/latest/dg/how-text-to-speech-works.html 
 
 ## Roadmap
 SynthesizeSpeech: 

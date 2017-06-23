@@ -1,0 +1,32 @@
+{
+  "name": "polly-tts",
+  "version": "1.0.0",
+  "description": "Provides a simple and easy to use Text To Speech API using Amazon Polly",
+  "private": false,
+  "main": "lib/index.js",
+  "author": "Carlos Knoke Flores <carlos@knoke.net>",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "text-to-speech",
+    "tts",
+    "text to speech",
+    "amazon",
+    "polly",
+    "aws"
+  ],
+  "dependencies": {},
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MexXxo/node-polly-tts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MexXxo/node-polly-tts/issues"
+  },
+  "homepage": "https://github.com/MexXxo/node-polly-tts#readme"
+}

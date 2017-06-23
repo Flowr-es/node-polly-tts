@@ -1,6 +1,6 @@
 {
   "name": "polly-tts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides a simple and easy to use Text To Speech API using Amazon Polly",
   "private": false,
   "main": "lib/index.js",

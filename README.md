@@ -24,8 +24,8 @@ Unit-Tests
 Your ideas
 
 ## Dependencies
-
 Node.Js Native Modules e.g. https,
+
 aws4
 
 ## Usage
@@ -54,16 +54,16 @@ A simple example how to use this module.
 
 Create a new Class of the module.
 You can give an optional credentials Object with the class - otherwise it will be taken from process.env see aws4.
-{
-      accessKeyId: 'YOUR-KEY',
-      secretAccessKey: 'YOUR-SECRET-KEY'
-}
+
+{ accessKeyId: 'YOUR-KEY',  secretAccessKey: 'YOUR-SECRET-KEY' }
 
 ####  textToSpeech(options, callback)
 
-request text to speech
-options & callback are required
-options can look like: (optional value examples are the default values)
+request text to speech 
+options & callback are required 
+options can look like: (optional value examples are the default values) 
+
+```
 let options = {
       text: 'some text to speech', // required
       region: "eu-west-1", // aws region - optional
@@ -75,8 +75,7 @@ let callback = ( err, audioStream ) {
     // err is an NodeJs Error
     // audioStream is the response from the https module
 }
-
-It will return the recording PCM Wave Stream as Node Stream.
+```
 
 ## CONTRIBUTORS
 Feel free to contribute - pull requests and issues are welcome :)

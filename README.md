@@ -15,12 +15,20 @@ SynthesizeSpeech:
     - SSML
     - SpeechMarkTypes
     - LexiconNames
+
+
 DescribeVoice
+
+
 Lexicons:
     - Delete
     - Get
     - Put
+
+
 Unit-Tests
+
+
 Your ideas
 
 ## Dependencies

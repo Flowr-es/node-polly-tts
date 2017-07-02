@@ -1,7 +1,7 @@
 {
   "name": "polly-tts",
-  "version": "1.0.2",
-  "description": "Provides a simple and easy to use Text To Speech API using Amazon Polly",
+  "version": "1.0.3",
+  "description": "Provides a simple and easy to use Text To Speech API using Amazon Polly Services",
   "private": false,
   "main": "lib/index.js",
   "author": "Carlos Knoke Flores <carlos@knoke.net>",
@@ -17,7 +17,9 @@
     "polly",
     "aws"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "aws4": "^1.6.0"
+  },
   "scripts": {
     "test": ""
   },

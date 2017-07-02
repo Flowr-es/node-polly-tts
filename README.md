@@ -32,8 +32,8 @@ Unit-Tests
 Your ideas
 
 ## Dependencies
-Node.Js Native Modules e.g. https,
-
+https,
+querystring,
 aws4
 
 ## Usage
@@ -51,7 +51,7 @@ A simple example how to use this module.
     let fileStream = fs.createWriteStream('polly-tts.mp3');
     polly.textToSpeech( options, ( err, audioStream ) => {
         if( err ) {
-            return console.log(e.message);
+            return console.log(err.message);
         }
         audioStream.pipe(fileStream);
     }); 
@@ -62,9 +62,9 @@ A simple example how to use this module.
 
 Create a new Class of the module.
 You can give an optional credentials Object with the class - otherwise it will be taken from process.env see aws4.
-
+```
 { accessKeyId: 'YOUR-KEY',  secretAccessKey: 'YOUR-SECRET-KEY' }
-
+```
 ####  textToSpeech(options, callback)
 
 request text to speech 

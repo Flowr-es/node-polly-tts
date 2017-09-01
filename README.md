@@ -7,8 +7,8 @@
 polly-tts is a module that uses amazon polly for providing text to speech using the aws</td>
 
 ## Notice
-As it uses EcmasScript 2015 code it will probably not work with older Node Versions
-For more information see http://docs.aws.amazon.com/polly/latest/dg/how-text-to-speech-works.html 
+As it uses EcmasScript 2015 code it will probably not work with older Node Versions.     
+For more information regarding polly see http://docs.aws.amazon.com/polly/latest/dg/how-text-to-speech-works.html 
 
 ## Roadmap
 SynthesizeSpeech: 
@@ -73,7 +73,8 @@ options can look like: (optional value examples are the default values)
 
 ```
 let options = {
-      text: 'some text to speech', // required
+      text: 'some text to speech', // if textType is ssml, than here needs to be the ssml string
+      textType: "text, // marks if it is ssml, text etc. - optional
       region: "eu-west-1", // aws region - optional
       voiceId: "Vicki", // Polly Voice -> also determines the language - optional
       sampleRate: 22050, // optional

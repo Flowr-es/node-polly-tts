@@ -85,7 +85,25 @@ let callback = ( err, audioStream ) {
     // audioStream is the response from the https module
 }
 ```
+####  describeVoices(options, callback)
 
+request text to speech 
+options & callback are required 
+options can look like: (optional value examples are the default values) 
+languageCode and nextToken are optional values. You can avoide them too for default response.
+
+
+```
+let options = {
+      languageCode: 'en-IN', // optional if you want voice from specific language
+      nextToken: "STRING_VALUE", // You will get this value if your first req to same method has pagination necessary.(optional)
+      region: "eu-west-1", // aws region - optional
+};
+let callback = ( err, voicesList ) {
+    // err is an NodeJs Error
+    // voicesList is the response from the https module containing nextToken if necessary and array of voices.
+}
+```
 ## CONTRIBUTORS
 Feel free to contribute - pull requests and issues are welcome :)
 
